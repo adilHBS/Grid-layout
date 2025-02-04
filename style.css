@@ -43,9 +43,9 @@ background-color: #fbb22f;
 .blue{
     background-color: #2b2e56;
 }
-@media(max-width:680px;){
-    .grid-continer{grid-template-columns: 1fr;
-    grid-template-rows: repeat(8);
+@media(max-width:680px){
+    .grid-continer{grid-template-columns:1, 1fr;
+    grid-template-rows: repeat(9,100px);
     grid-column:auto;
     grid-row: auto;
     grid-column: auto;
